@@ -1,0 +1,49 @@
+# Dataset files - DO NOT COMMIT
+student_resource/dataset/
+student_resource/*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model artifacts
+models/
+outputs/
+submission/
+*.pkl
+*.joblib
+*.model
+*.h5
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache and temporary files
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
